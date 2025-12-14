@@ -1,0 +1,26 @@
+{
+  "name": "bookverse",
+  "version": "1.0.0",
+  "description": "BookVerse - An interactive online bookstore platform",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "npx http-server . -p 3000 -o",
+    "test": "npm run build && node tests/runTests.js"
+  },
+  "keywords": [
+    "bookstore",
+    "typescript",
+    "html5",
+    "css3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
+
+
+
